@@ -35,26 +35,45 @@ paysmart_analysis/
 │
 ├── main.py # Pipeline tradicional (1M transações, regras fixas)
 
-├── main_enhanced.py # Pipeline aprimorado (comparação com regras descobertas)
+├── main_enhanced.py # Pipeline aprimorado (comparação com regras descobertas
+
 │
+
 ├── data/
+
 │ ├── generator.py # Geração de base sintética com regras fixas
+
 │ ├── enhanced_generator.py # Geração de base sintética com variabilidade
+
 │
+
 ├── discovery/
+
 │ └── rule_discovery.py # Descoberta automática de regras (árvore de decisão)
+
 │
+
 ├── models/
+
 │ └── anomaly_detector.py # Detecção de anomalias (estatístico, ML, híbrido)
+
 │
+
 ├── analysis/
+
 │ └── transaction_analyzer.py # Análise de impacto, isenções e estatísticas
+
 │
 ├── reports/
+
 │ ├── pdf_generator.py # Relatórios PDF executivos
+
 │ ├── report_generator.py # Relatórios texto/CSV
+
 │ └── outputs gerados (PDF, TXT, CSV, PNG)
+
 │
+
 └── README.md # Este arquivo
 
 
