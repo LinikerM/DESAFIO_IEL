@@ -1,0 +1,60 @@
+REGRAS DE NEGÓCIO DESCOBERTAS AUTOMATICAMENTE
+==================================================
+
+Data de geração: 08/09/2025 21:56
+
+=== REGRAS POR TIPO DE ESTABELECIMENTO ===
+• ONLINE_MARKETPLACE: taxa típica 2.3% (faixa normal: 2.1% - 2.5%)
+• FARMACIA: taxa típica 2.3% (faixa normal: 2.1% - 2.5%)
+• LOJA_ROUPAS: taxa típica 3.4% (faixa normal: 3.1% - 3.7%)
+• RESTAURANTE: taxa típica 2.3% (faixa normal: 2.1% - 2.5%)
+• SERVICOS_DIGITAIS: taxa típica 2.5% (faixa normal: 2.3% - 2.8%)
+• POSTO_COMBUSTIVEL: taxa típica 2.9% (faixa normal: 2.6% - 3.1%)
+• ELETRONICOS: taxa típica 1.6% (faixa normal: 1.4% - 1.8%)
+• SUPERMERCADO: taxa típica 3.1% (faixa normal: 2.8% - 3.4%)
+
+=== REGRAS TEMPORAIS ===
+• Segunda: taxa típica 2.6%
+• Terça: taxa típica 2.6%
+• Quarta: taxa típica 2.6%
+• Quinta: taxa típica 2.6%
+• Sexta: taxa típica 2.6%
+• Sábado: taxa típica 2.6%
+• Domingo: taxa típica 2.3%
+
+=== REGRAS POR VALOR DE TRANSAÇÃO ===
+• Low: R$ 0 - R$ 20 → taxa 2.7%
+• Medium: R$ 20 - R$ 55 → taxa 2.7%
+• High: R$ 55 - R$ 151 → taxa 2.3%
+• Premium: R$ 151 - R$ 34,455 → taxa 2.3%
+
+=== REGRAS DE ISENÇÃO DESCOBERTAS ===
+• Isenções por estabelecimento:
+  - LOJA_ROUPAS: 649 transações isentas
+  - SUPERMERCADO: 626 transações isentas
+  - ONLINE_MARKETPLACE: 626 transações isentas
+  - POSTO_COMBUSTIVEL: 625 transações isentas
+  - ELETRONICOS: 624 transações isentas
+  - FARMACIA: 592 transações isentas
+  - SERVICOS_DIGITAIS: 589 transações isentas
+  - RESTAURANTE: 576 transações isentas
+• Isenções por dia da semana:
+  - Sábado: 770 transações isentas
+  - Segunda: 721 transações isentas
+  - Quarta: 702 transações isentas
+  - Domingo: 699 transações isentas
+  - Terça: 688 transações isentas
+  - Quinta: 671 transações isentas
+  - Sexta: 656 transações isentas
+
+=== FATORES MAIS IMPORTANTES ===
+• merchant_type_encoded: 77.2% de importância
+• amount_log: 15.9% de importância
+• channel_encoded: 4.7% de importância
+• day_of_week: 2.1% de importância
+• month: 0.1% de importância
+
+=== QUALIDADE DAS REGRAS DESCOBERTAS ===
+• R² Score: 48.7% (quão bem as regras explicam os dados)
+• Erro Médio Absoluto: 0.3%
+• MAPE: 120346.2%

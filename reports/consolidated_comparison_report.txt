@@ -1,0 +1,23 @@
+RELATÓRIO CONSOLIDADO - PAYSMART SOLUTIONS
+============================================================
+Data de geração: 09/09/2025 11:46
+
+COMPARAÇÃO DE ABORDAGENS
+------------------------------
+IMPACTO FINANCEIRO:
+  Tradicional: R$ 2,508.40
+  Descoberta:  R$ 19,130.92
+  Diferença:   R$ 16,622.52
+
+DETECÇÃO DE ANOMALIAS:
+  Tradicional: 23,361 anomalias
+  Descoberta:  20,664 anomalias
+  Diferença:   2,697 anomalias
+
+RECOMENDAÇÕES FINAIS
+--------------------
+⚠️ Regras descobertas precisam de refinamento
+⚠️ Abordagem tradicional teve melhor resultado financeiro
+📊 Implementar monitoramento contínuo com regras adaptativas
+🔄 Reavaliar regras mensalmente com base em novos dados
+🎯 Focar correções nos estabelecimentos com mais anomalias
