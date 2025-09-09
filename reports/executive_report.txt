@@ -1,0 +1,15 @@
+PAYSMART SOLUTIONS - RELATÓRIO EXECUTIVO
+==================================================
+Data: 09/09/2025 12:58
+
+RESUMO EXECUTIVO
+Total de transações: 1.000.000
+Impacto financeiro: R$ 25.121,65
+Taxa de anomalias: 24.65%
+Acurácia de isenções: 89.79%
+
+ARQUIVOS GERADOS:
+• paysmart_traditional_report.pdf - Relatório completo com gráficos
+• problematic_transactions.csv - Transações problemáticas
+• merchant_summary.csv - Resumo por estabelecimento
+• Gráficos PNG salvos em reports/
