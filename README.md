@@ -31,8 +31,10 @@ A empresa enfrenta o desafio da **falta de documentação completa** sobre essas
 
 ## 📂 Estrutura do Projeto
 paysmart_analysis/
+
 │
 ├── main.py # Pipeline tradicional (1M transações, regras fixas)
+
 ├── main_enhanced.py # Pipeline aprimorado (comparação com regras descobertas)
 │
 ├── data/
